@@ -22,13 +22,23 @@ class FilmwebScraper:
             showtimes_soup = BeautifulSoup(showtimes_response.text, 'html.parser')
             
             cinemas = {}
-            for cinema_element in showtimes_soup.select('.cinemaSection'):
-                cinema_header = cinema_element.select_one('.cinemaSection__header h3')
-                if not cinema_header:
+            for cinema_section in showtimes_soup.select('.seanceTiles'):
+                name_element = cinema_section.select_one('.seanceTiles__title')
+                if not name_element:
                     continue
-                cinema_name = cinema_header.text.strip()
-                times = [time.text.strip() for time in cinema_element.select('.seanceTile__time')]
-                cinemas[cinema_name] = times
+                cinema_name = name_element.text.strip()
+                
+                # Extract lat/lng from data attributes
+                lat = cinema_section.get('data-cinema-latitude')
+                lng = cinema_section.get('data-cinema-longitude')
+                
+                times = [time.text.strip() for time in cinema_section.select('.seanceTile__value')]
+                
+                if times:
+                    cinemas[cinema_name] = {
+                        "times": times,
+                        "coords": {"lat": lat, "lng": lng} if lat and lng else None
+                    }
                 
             movies.append({
                 "title": title,
