@@ -106,3 +106,13 @@ pytest
 - [x] **Step 4: Create GitHub Action for 4:00 AM daily run**
 - [x] **Step 5: Commit**
 `git add scraper/main.py .github/ && git commit -m "feat: add daily scraper runner and github action"`
+
+### Task 8: Local Setup & Documentation
+**Files:**
+- Create: `README.md`
+
+- [x] **Step 1: Create a comprehensive `README.md` with setup instructions**
+- [x] **Step 2: Add instructions for local frontend run (`npm install && npm run dev`)**
+- [x] **Step 3: Add instructions for local scraper run with `TMDB_API_KEY`**
+- [x] **Step 4: Commit**
+`git add README.md && git commit -m "docs: add local setup instructions"`
