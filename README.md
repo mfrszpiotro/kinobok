@@ -1,6 +1,6 @@
-# Kinobok Warsaw PoC
+# kinꚘbok Warsaw PoC
 
-Kinobok is a privacy-first web application that matches your Letterboxd watchlist with Warsaw cinema showtimes. It processes your data entirely in the browser using the unique `boxd.it` URIs.
+kinꚘbok is a privacy-first web application that matches your Letterboxd watchlist with Warsaw cinema showtimes. It processes your data entirely in the browser using the unique `boxd.it` URIs.
 
 ## Architecture
 - **Backend:** Python scraper that bridges Filmweb (PL) to Letterboxd (EN) via TMDB, generating `frontend/public/data.json`.
@@ -41,5 +41,5 @@ The project is configured with a GitHub Action (`.github/workflows/daily-scraper
 
 ## Usage
 1. Export your Letterboxd watchlist as a CSV.
-2. Upload the `watchlist.csv` to the Kinobok sidebar.
+2. Upload the `watchlist.csv` to the kinꚘbok sidebar.
 3. Matching cinemas in Warsaw will be highlighted on the map.

@@ -10,7 +10,7 @@ from export import export_to_json
 
 
 def main():
-    print("🚀 Starting Kinobok Warsaw Daily Scraper...")
+    print("🚀 Starting kinꚘbok Warsaw Daily Scraper...")
 
     # Initialize scrapers
     filmweb = FilmwebScraper()

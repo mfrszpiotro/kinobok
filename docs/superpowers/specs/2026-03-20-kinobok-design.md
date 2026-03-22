@@ -1,12 +1,12 @@
-# Kinobok Design Specification
+# kinꚘbok Design Specification
 
 **Date:** 2026-03-20
-**Topic:** Kinobok - Personal Cinema Recommendation Engine for Poland
+**Topic:** kinꚘbok - Personal Cinema Recommendation Engine for Poland
 **Status:** Approved
 
 ## 1. Overview
-Kinobok is a privacy-first web application that helps Polish cinema-goers discover movies currently playing in their local theaters based on their Letterboxd taste (Watchlist and Ratings). It uses a "Cinema-First" approach, prioritizing a map-based discovery experience.
-- **Temporary Repository:** https://github.com/mfrszpiotro/kinobok
+kinꚘbok is a privacy-first web application that helps Polish cinema-goers discover movies currently playing in their local theaters based on their Letterboxd taste (Watchlist and Ratings). It uses a "Cinema-First" approach, prioritizing a map-based discovery experience.
+- **Temporary Repository:** https://github.com/mfrszpiotro/kinꚘbok
 - **Future:** Code may be moved to a dedicated project account upon completion for GitHub Pages or Vercel deployment.
 
 ## 2. Core Features
