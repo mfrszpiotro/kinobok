@@ -26,7 +26,7 @@ def main():
     print("📡 Fetching Warsaw movies from Filmweb...")
     # For PoC, we might want to limit or just fetch everything.
     # Let's start with a reasonable limit if needed, or all if it's not too many.
-    scraped_movies = filmweb.get_warsaw_movies(10)
+    scraped_movies = filmweb.get_warsaw_movies()
     print(f"✅ Found {len(scraped_movies)} movies playing in Warsaw.")
 
     movies_data = []
