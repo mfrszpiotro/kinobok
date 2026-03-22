@@ -3,27 +3,273 @@
     {
       "id": "m1",
       "title": "Project Hail Mary",
-      "poster": "https://image.tmdb.org/t/p/w500/project-hail-mary.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/yihdXomYb5kTeSivtFndMy5iDmf.jpg",
       "boxd_uri": "https://boxd.it/pEeQ"
+    },
+    {
+      "id": "m2",
+      "title": "Hoppers",
+      "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
+      "boxd_uri": "https://boxd.it/OFpg"
+    },
+    {
+      "id": "m3",
+      "title": "Too Old for Fairy Tales 3",
+      "poster": "https://image.tmdb.org/t/p/w500/2x9Fkoea4brpGEJHE4xJWddMx8C.jpg",
+      "boxd_uri": "https://boxd.it/V7u6"
+    },
+    {
+      "id": "m4",
+      "title": "The Pout-Pout Fish",
+      "poster": "https://image.tmdb.org/t/p/w500/fcDXgGL14qL46It1XOozEjX5Jws.jpg",
+      "boxd_uri": "https://boxd.it/Hla2"
+    },
+    {
+      "id": "m5",
+      "title": "Fleak",
+      "poster": "https://image.tmdb.org/t/p/w500/ehvguHMOXhLn571F1UEs3iXtE6n.jpg",
+      "boxd_uri": "https://boxd.it/polG"
+    },
+    {
+      "id": "m6",
+      "title": "Reminders of Him",
+      "poster": "https://image.tmdb.org/t/p/w500/7L6rceYgzQ0NeHD7PRDNrRoQ291.jpg",
+      "boxd_uri": "https://boxd.it/QEnW"
+    },
+    {
+      "id": "m7",
+      "title": "Screw Mickiewicz 3",
+      "poster": "https://image.tmdb.org/t/p/w500/5x7qmgrysjKTVHGc2zT81yD2g3T.jpg",
+      "boxd_uri": "https://boxd.it/V3Xo"
+    },
+    {
+      "id": "m8",
+      "title": "Scream 7",
+      "poster": "https://image.tmdb.org/t/p/w500/jjyuk0edLiW8vOSnlfwWCCLpbh5.jpg",
+      "boxd_uri": "https://boxd.it/HRvQ"
+    },
+    {
+      "id": "m9",
+      "title": "The Good Boy",
+      "poster": "https://image.tmdb.org/t/p/w500/cEXT4bXOrM0pqrK714NP3M69cWW.jpg",
+      "boxd_uri": "https://boxd.it/3Cxi"
     }
   ],
   "cinemas": [
     {
       "id": "c1",
-      "name": "Kino Muranów",
-      "address": "ul. Gen. Andersa 5, 00-147 Warszawa",
+      "name": "Cinema City Arkadia",
+      "address": "Warsaw, Poland",
       "coords": {
-        "lat": 52.249,
-        "lng": 20.999
+        "lat": 52.25652,
+        "lng": 20.98394
       }
     },
     {
       "id": "c2",
-      "name": "Kino Kultura",
-      "address": "Krakowskie Przedmieście 21/23, 00-071 Warszawa",
+      "name": "Cinema City Mokotów",
+      "address": "Warsaw, Poland",
       "coords": {
-        "lat": 52.243,
-        "lng": 21.015
+        "lat": 52.17892,
+        "lng": 21.00377
+      }
+    },
+    {
+      "id": "c3",
+      "name": "Cinema City Promenada",
+      "address": "Warsaw, Poland",
+      "coords": {
+        "lat": 52.23157,
+        "lng": 21.10531
+      }
+    },
+    {
+      "id": "c4",
+      "name": "Helios Blue City",
+      "address": "Warsaw, Poland",
+      "coords": {
+        "lat": 52.212508,
+        "lng": 20.955564
+      }
+    },
+    {
+      "id": "c5",
+      "name": "Cinema City Bemowo",
+      "address": "Warsaw, Poland",
+      "coords": {
+        "lat": 52.26579,
+        "lng": 20.9327
+      }
+    },
+    {
+      "id": "c6",
+      "name": "Cinema City Janki",
+      "address": "Warsaw, Poland",
+      "coords": {
+        "lat": 52.12916,
+        "lng": 20.89884
+      }
+    },
+    {
+      "id": "c7",
+      "name": "Cinema City Sadyba",
+      "address": "Warsaw, Poland",
+      "coords": {
+        "lat": 52.18732,
+        "lng": 21.06116
+      }
+    },
+    {
+      "id": "c8",
+      "name": "Cinema City Białołęka",
+      "address": "Warsaw, Poland",
+      "coords": {
+        "lat": 52.318353,
+        "lng": 20.964228
+      }
+    },
+    {
+      "id": "c9",
+      "name": "IMAX",
+      "address": "Warsaw, Poland",
+      "coords": {
+        "lat": 52.18732,
+        "lng": 21.06116
+      }
+    },
+    {
+      "id": "c10",
+      "name": "Kinoteka",
+      "address": "Warsaw, Poland",
+      "coords": {
+        "lat": 52.2319,
+        "lng": 21.00683
+      }
+    },
+    {
+      "id": "c11",
+      "name": "Atlantic",
+      "address": "Warsaw, Poland",
+      "coords": {
+        "lat": 52.23176,
+        "lng": 21.01274
+      }
+    },
+    {
+      "id": "c12",
+      "name": "Multikino Młociny",
+      "address": "Warsaw, Poland",
+      "coords": {
+        "lat": 52.296605,
+        "lng": 20.93218
+      }
+    },
+    {
+      "id": "c13",
+      "name": "Multikino Targówek",
+      "address": "Warsaw, Poland",
+      "coords": {
+        "lat": 52.30284,
+        "lng": 21.05753
+      }
+    },
+    {
+      "id": "c14",
+      "name": "Multikino Złote Tarasy",
+      "address": "Warsaw, Poland",
+      "coords": {
+        "lat": 52.2301323,
+        "lng": 21.0039711
+      }
+    },
+    {
+      "id": "c15",
+      "name": "Multikino Atrium Reduta",
+      "address": "Warsaw, Poland",
+      "coords": {
+        "lat": 52.212964,
+        "lng": 20.951165
+      }
+    },
+    {
+      "id": "c16",
+      "name": "Wisła",
+      "address": "Warsaw, Poland",
+      "coords": {
+        "lat": 52.26948,
+        "lng": 20.98667
+      }
+    },
+    {
+      "id": "c17",
+      "name": "KinoGram",
+      "address": "Warsaw, Poland",
+      "coords": {
+        "lat": 52.232234337745126,
+        "lng": 20.992035296271737
+      }
+    },
+    {
+      "id": "c18",
+      "name": "Multikino Wola",
+      "address": "Warsaw, Poland",
+      "coords": {
+        "lat": 52.2413843,
+        "lng": 20.9312364
+      }
+    },
+    {
+      "id": "c19",
+      "name": "Kinokawiarnia Stacja Falenica",
+      "address": "Warsaw, Poland",
+      "coords": {
+        "lat": 52.1627087,
+        "lng": 21.2105548
+      }
+    },
+    {
+      "id": "c20",
+      "name": "Kino Głębocka 66",
+      "address": "Warsaw, Poland",
+      "coords": {
+        "lat": 52.3115485,
+        "lng": 21.0675928
+      }
+    },
+    {
+      "id": "c21",
+      "name": "Muranów",
+      "address": "Warsaw, Poland",
+      "coords": {
+        "lat": 52.24492,
+        "lng": 20.99954
+      }
+    },
+    {
+      "id": "c22",
+      "name": "Luna",
+      "address": "Warsaw, Poland",
+      "coords": {
+        "lat": 52.21883,
+        "lng": 21.0189
+      }
+    },
+    {
+      "id": "c23",
+      "name": "Mazowiecki Teatr Muzyczny im. Jana Kiepury - Kino Praha",
+      "address": "Warsaw, Poland",
+      "coords": {
+        "lat": 52.25166,
+        "lng": 21.03566
+      }
+    },
+    {
+      "id": "c24",
+      "name": "Świt",
+      "address": "Warsaw, Poland",
+      "coords": {
+        "lat": 52.2848917,
+        "lng": 21.0214444
       }
     }
   ],
@@ -31,7 +277,1017 @@
     {
       "movie_id": "m1",
       "cinema_id": "c1",
-      "times": ["18:00", "21:00"]
+      "times": [
+        "10:20",
+        "13:40",
+        "15:00",
+        "17:00",
+        "17:50",
+        "18:20",
+        "20:20",
+        "21:10",
+        "21:40"
+      ]
+    },
+    {
+      "movie_id": "m1",
+      "cinema_id": "c2",
+      "times": [
+        "10:20",
+        "11:40",
+        "13:40",
+        "15:00",
+        "17:00",
+        "18:20",
+        "20:20",
+        "21:40"
+      ]
+    },
+    {
+      "movie_id": "m1",
+      "cinema_id": "c3",
+      "times": [
+        "10:20",
+        "12:00",
+        "13:40",
+        "15:20",
+        "17:00",
+        "18:40",
+        "20:20"
+      ]
+    },
+    {
+      "movie_id": "m1",
+      "cinema_id": "c4",
+      "times": [
+        "11:20",
+        "14:40",
+        "16:10",
+        "18:00",
+        "19:30",
+        "21:15"
+      ]
+    },
+    {
+      "movie_id": "m1",
+      "cinema_id": "c5",
+      "times": [
+        "11:00",
+        "14:15",
+        "16:00",
+        "17:30",
+        "19:20",
+        "20:50"
+      ]
+    },
+    {
+      "movie_id": "m1",
+      "cinema_id": "c6",
+      "times": [
+        "11:00",
+        "14:15",
+        "17:30",
+        "18:30",
+        "19:10",
+        "20:50"
+      ]
+    },
+    {
+      "movie_id": "m1",
+      "cinema_id": "c7",
+      "times": [
+        "11:00",
+        "12:40",
+        "14:15",
+        "16:00",
+        "17:30",
+        "20:50"
+      ]
+    },
+    {
+      "movie_id": "m1",
+      "cinema_id": "c8",
+      "times": [
+        "11:00",
+        "14:15",
+        "17:30",
+        "19:30",
+        "20:50"
+      ]
+    },
+    {
+      "movie_id": "m1",
+      "cinema_id": "c9",
+      "times": [
+        "11:30",
+        "14:50",
+        "18:10",
+        "21:30"
+      ]
+    },
+    {
+      "movie_id": "m1",
+      "cinema_id": "c10",
+      "times": [
+        "11:45",
+        "13:45",
+        "17:00",
+        "20:15"
+      ]
+    },
+    {
+      "movie_id": "m1",
+      "cinema_id": "c11",
+      "times": [
+        "11:30",
+        "13:45",
+        "17:00",
+        "19:30"
+      ]
+    },
+    {
+      "movie_id": "m1",
+      "cinema_id": "c12",
+      "times": [
+        "18:30",
+        "19:15",
+        "19:45",
+        "20:35"
+      ]
+    },
+    {
+      "movie_id": "m1",
+      "cinema_id": "c13",
+      "times": [
+        "18:00",
+        "19:15",
+        "20:35",
+        "21:00"
+      ]
+    },
+    {
+      "movie_id": "m1",
+      "cinema_id": "c14",
+      "times": [
+        "18:50",
+        "19:30",
+        "20:30"
+      ]
+    },
+    {
+      "movie_id": "m1",
+      "cinema_id": "c15",
+      "times": [
+        "18:00",
+        "19:10",
+        "20:00"
+      ]
+    },
+    {
+      "movie_id": "m1",
+      "cinema_id": "c16",
+      "times": [
+        "17:20",
+        "19:15"
+      ]
+    },
+    {
+      "movie_id": "m1",
+      "cinema_id": "c17",
+      "times": [
+        "15:45",
+        "19:15"
+      ]
+    },
+    {
+      "movie_id": "m1",
+      "cinema_id": "c18",
+      "times": [
+        "18:45",
+        "20:00"
+      ]
+    },
+    {
+      "movie_id": "m2",
+      "cinema_id": "c1",
+      "times": [
+        "10:00",
+        "11:30",
+        "12:30",
+        "12:40",
+        "13:20",
+        "13:40",
+        "14:00",
+        "16:30",
+        "19:00",
+        "21:30"
+      ]
+    },
+    {
+      "movie_id": "m2",
+      "cinema_id": "c2",
+      "times": [
+        "10:30",
+        "11:00",
+        "11:20",
+        "13:00",
+        "13:30",
+        "15:30",
+        "15:50",
+        "16:25",
+        "18:00"
+      ]
+    },
+    {
+      "movie_id": "m2",
+      "cinema_id": "c6",
+      "times": [
+        "10:40",
+        "11:40",
+        "13:10",
+        "14:10",
+        "15:40",
+        "16:40",
+        "18:10"
+      ]
+    },
+    {
+      "movie_id": "m2",
+      "cinema_id": "c7",
+      "times": [
+        "10:30",
+        "12:00",
+        "13:00",
+        "14:30",
+        "15:30",
+        "17:00",
+        "19:30"
+      ]
+    },
+    {
+      "movie_id": "m2",
+      "cinema_id": "c3",
+      "times": [
+        "10:40",
+        "12:10",
+        "13:10",
+        "14:40",
+        "15:40",
+        "17:10",
+        "18:00"
+      ]
+    },
+    {
+      "movie_id": "m2",
+      "cinema_id": "c5",
+      "times": [
+        "10:20",
+        "11:20",
+        "12:50",
+        "13:50",
+        "15:20",
+        "17:50"
+      ]
+    },
+    {
+      "movie_id": "m2",
+      "cinema_id": "c4",
+      "times": [
+        "10:50",
+        "12:40",
+        "13:30",
+        "15:10",
+        "17:30"
+      ]
+    },
+    {
+      "movie_id": "m2",
+      "cinema_id": "c8",
+      "times": [
+        "10:10",
+        "11:00",
+        "13:30",
+        "15:30",
+        "18:00"
+      ]
+    },
+    {
+      "movie_id": "m2",
+      "cinema_id": "c17",
+      "times": [
+        "12:00",
+        "14:30"
+      ]
+    },
+    {
+      "movie_id": "m2",
+      "cinema_id": "c14",
+      "times": [
+        "18:20"
+      ]
+    },
+    {
+      "movie_id": "m2",
+      "cinema_id": "c16",
+      "times": [
+        "16:00"
+      ]
+    },
+    {
+      "movie_id": "m2",
+      "cinema_id": "c10",
+      "times": [
+        "12:45"
+      ]
+    },
+    {
+      "movie_id": "m2",
+      "cinema_id": "c12",
+      "times": [
+        "18:15"
+      ]
+    },
+    {
+      "movie_id": "m2",
+      "cinema_id": "c15",
+      "times": [
+        "18:30"
+      ]
+    },
+    {
+      "movie_id": "m2",
+      "cinema_id": "c13",
+      "times": [
+        "18:50"
+      ]
+    },
+    {
+      "movie_id": "m3",
+      "cinema_id": "c4",
+      "times": [
+        "10:10",
+        "11:00",
+        "12:00",
+        "14:10",
+        "16:20",
+        "18:15"
+      ]
+    },
+    {
+      "movie_id": "m3",
+      "cinema_id": "c1",
+      "times": [
+        "10:20",
+        "12:30",
+        "14:40",
+        "16:50"
+      ]
+    },
+    {
+      "movie_id": "m3",
+      "cinema_id": "c8",
+      "times": [
+        "10:20",
+        "12:30",
+        "14:45",
+        "17:00"
+      ]
+    },
+    {
+      "movie_id": "m3",
+      "cinema_id": "c5",
+      "times": [
+        "11:45",
+        "14:00",
+        "16:15",
+        "18:30"
+      ]
+    },
+    {
+      "movie_id": "m3",
+      "cinema_id": "c2",
+      "times": [
+        "11:00",
+        "13:10",
+        "15:20",
+        "17:30"
+      ]
+    },
+    {
+      "movie_id": "m3",
+      "cinema_id": "c7",
+      "times": [
+        "10:10",
+        "10:30",
+        "12:30",
+        "17:00"
+      ]
+    },
+    {
+      "movie_id": "m3",
+      "cinema_id": "c3",
+      "times": [
+        "11:45",
+        "13:30",
+        "15:50",
+        "18:10"
+      ]
+    },
+    {
+      "movie_id": "m3",
+      "cinema_id": "c6",
+      "times": [
+        "13:30",
+        "15:45",
+        "18:00"
+      ]
+    },
+    {
+      "movie_id": "m3",
+      "cinema_id": "c12",
+      "times": [
+        "18:05"
+      ]
+    },
+    {
+      "movie_id": "m3",
+      "cinema_id": "c13",
+      "times": [
+        "18:10"
+      ]
+    },
+    {
+      "movie_id": "m4",
+      "cinema_id": "c5",
+      "times": [
+        "10:30",
+        "12:40",
+        "14:50",
+        "17:00"
+      ]
+    },
+    {
+      "movie_id": "m4",
+      "cinema_id": "c3",
+      "times": [
+        "10:10",
+        "12:20",
+        "14:30",
+        "16:40"
+      ]
+    },
+    {
+      "movie_id": "m4",
+      "cinema_id": "c1",
+      "times": [
+        "11:10",
+        "13:25",
+        "15:40"
+      ]
+    },
+    {
+      "movie_id": "m4",
+      "cinema_id": "c4",
+      "times": [
+        "10:20",
+        "13:00",
+        "17:45"
+      ]
+    },
+    {
+      "movie_id": "m4",
+      "cinema_id": "c8",
+      "times": [
+        "11:10",
+        "13:20",
+        "15:00"
+      ]
+    },
+    {
+      "movie_id": "m4",
+      "cinema_id": "c2",
+      "times": [
+        "10:00",
+        "12:10",
+        "14:15"
+      ]
+    },
+    {
+      "movie_id": "m4",
+      "cinema_id": "c6",
+      "times": [
+        "10:00",
+        "13:15",
+        "15:30"
+      ]
+    },
+    {
+      "movie_id": "m4",
+      "cinema_id": "c7",
+      "times": [
+        "10:30",
+        "12:45",
+        "15:00"
+      ]
+    },
+    {
+      "movie_id": "m4",
+      "cinema_id": "c17",
+      "times": [
+        "12:15",
+        "13:30"
+      ]
+    },
+    {
+      "movie_id": "m4",
+      "cinema_id": "c16",
+      "times": [
+        "10:30"
+      ]
+    },
+    {
+      "movie_id": "m4",
+      "cinema_id": "c19",
+      "times": [
+        "11:00"
+      ]
+    },
+    {
+      "movie_id": "m5",
+      "cinema_id": "c20",
+      "times": [
+        "13:00",
+        "15:00",
+        "17:00"
+      ]
+    },
+    {
+      "movie_id": "m5",
+      "cinema_id": "c4",
+      "times": [
+        "10:00",
+        "15:20",
+        "18:30"
+      ]
+    },
+    {
+      "movie_id": "m5",
+      "cinema_id": "c7",
+      "times": [
+        "10:00",
+        "12:00",
+        "14:10"
+      ]
+    },
+    {
+      "movie_id": "m5",
+      "cinema_id": "c3",
+      "times": [
+        "10:00",
+        "11:40",
+        "13:50"
+      ]
+    },
+    {
+      "movie_id": "m5",
+      "cinema_id": "c1",
+      "times": [
+        "10:10",
+        "16:20"
+      ]
+    },
+    {
+      "movie_id": "m5",
+      "cinema_id": "c8",
+      "times": [
+        "13:00",
+        "16:40"
+      ]
+    },
+    {
+      "movie_id": "m5",
+      "cinema_id": "c5",
+      "times": [
+        "11:20",
+        "13:30"
+      ]
+    },
+    {
+      "movie_id": "m5",
+      "cinema_id": "c2",
+      "times": [
+        "11:30",
+        "13:50"
+      ]
+    },
+    {
+      "movie_id": "m5",
+      "cinema_id": "c6",
+      "times": [
+        "10:00",
+        "11:10"
+      ]
+    },
+    {
+      "movie_id": "m5",
+      "cinema_id": "c16",
+      "times": [
+        "14:15"
+      ]
+    },
+    {
+      "movie_id": "m5",
+      "cinema_id": "c10",
+      "times": [
+        "12:15"
+      ]
+    },
+    {
+      "movie_id": "m5",
+      "cinema_id": "c21",
+      "times": [
+        "11:00"
+      ]
+    },
+    {
+      "movie_id": "m5",
+      "cinema_id": "c22",
+      "times": [
+        "11:45"
+      ]
+    },
+    {
+      "movie_id": "m5",
+      "cinema_id": "c23",
+      "times": [
+        "14:00"
+      ]
+    },
+    {
+      "movie_id": "m5",
+      "cinema_id": "c19",
+      "times": [
+        "12:15"
+      ]
+    },
+    {
+      "movie_id": "m6",
+      "cinema_id": "c4",
+      "times": [
+        "13:20",
+        "19:00",
+        "21:20"
+      ]
+    },
+    {
+      "movie_id": "m6",
+      "cinema_id": "c2",
+      "times": [
+        "13:50",
+        "17:30",
+        "22:20"
+      ]
+    },
+    {
+      "movie_id": "m6",
+      "cinema_id": "c1",
+      "times": [
+        "10:00",
+        "18:00"
+      ]
+    },
+    {
+      "movie_id": "m6",
+      "cinema_id": "c8",
+      "times": [
+        "17:20",
+        "20:00"
+      ]
+    },
+    {
+      "movie_id": "m6",
+      "cinema_id": "c6",
+      "times": [
+        "14:30",
+        "19:40"
+      ]
+    },
+    {
+      "movie_id": "m6",
+      "cinema_id": "c14",
+      "times": [
+        "20:20"
+      ]
+    },
+    {
+      "movie_id": "m6",
+      "cinema_id": "c11",
+      "times": [
+        "20:15"
+      ]
+    },
+    {
+      "movie_id": "m6",
+      "cinema_id": "c12",
+      "times": [
+        "19:30"
+      ]
+    },
+    {
+      "movie_id": "m6",
+      "cinema_id": "c15",
+      "times": [
+        "20:10"
+      ]
+    },
+    {
+      "movie_id": "m6",
+      "cinema_id": "c5",
+      "times": [
+        "20:10"
+      ]
+    },
+    {
+      "movie_id": "m6",
+      "cinema_id": "c7",
+      "times": [
+        "17:15"
+      ]
+    },
+    {
+      "movie_id": "m6",
+      "cinema_id": "c3",
+      "times": [
+        "18:40"
+      ]
+    },
+    {
+      "movie_id": "m6",
+      "cinema_id": "c13",
+      "times": [
+        "20:20"
+      ]
+    },
+    {
+      "movie_id": "m7",
+      "cinema_id": "c1",
+      "times": [
+        "14:20",
+        "22:30"
+      ]
+    },
+    {
+      "movie_id": "m7",
+      "cinema_id": "c4",
+      "times": [
+        "16:40",
+        "20:15"
+      ]
+    },
+    {
+      "movie_id": "m7",
+      "cinema_id": "c5",
+      "times": [
+        "12:10",
+        "14:30"
+      ]
+    },
+    {
+      "movie_id": "m7",
+      "cinema_id": "c2",
+      "times": [
+        "14:20",
+        "16:40"
+      ]
+    },
+    {
+      "movie_id": "m7",
+      "cinema_id": "c3",
+      "times": [
+        "14:20",
+        "16:30"
+      ]
+    },
+    {
+      "movie_id": "m7",
+      "cinema_id": "c14",
+      "times": [
+        "21:15"
+      ]
+    },
+    {
+      "movie_id": "m7",
+      "cinema_id": "c15",
+      "times": [
+        "20:40"
+      ]
+    },
+    {
+      "movie_id": "m7",
+      "cinema_id": "c8",
+      "times": [
+        "19:10"
+      ]
+    },
+    {
+      "movie_id": "m7",
+      "cinema_id": "c6",
+      "times": [
+        "16:10"
+      ]
+    },
+    {
+      "movie_id": "m7",
+      "cinema_id": "c7",
+      "times": [
+        "13:00"
+      ]
+    },
+    {
+      "movie_id": "m8",
+      "cinema_id": "c8",
+      "times": [
+        "11:20",
+        "14:00",
+        "16:50"
+      ]
+    },
+    {
+      "movie_id": "m8",
+      "cinema_id": "c3",
+      "times": [
+        "15:00",
+        "19:40",
+        "22:15"
+      ]
+    },
+    {
+      "movie_id": "m8",
+      "cinema_id": "c4",
+      "times": [
+        "14:00",
+        "21:30"
+      ]
+    },
+    {
+      "movie_id": "m8",
+      "cinema_id": "c5",
+      "times": [
+        "15:00",
+        "21:45"
+      ]
+    },
+    {
+      "movie_id": "m8",
+      "cinema_id": "c7",
+      "times": [
+        "19:10",
+        "21:50"
+      ]
+    },
+    {
+      "movie_id": "m8",
+      "cinema_id": "c1",
+      "times": [
+        "15:30"
+      ]
+    },
+    {
+      "movie_id": "m8",
+      "cinema_id": "c12",
+      "times": [
+        "18:20"
+      ]
+    },
+    {
+      "movie_id": "m8",
+      "cinema_id": "c2",
+      "times": [
+        "19:10"
+      ]
+    },
+    {
+      "movie_id": "m8",
+      "cinema_id": "c6",
+      "times": [
+        "20:40"
+      ]
+    },
+    {
+      "movie_id": "m8",
+      "cinema_id": "c18",
+      "times": [
+        "20:10"
+      ]
+    },
+    {
+      "movie_id": "m8",
+      "cinema_id": "c13",
+      "times": [
+        "20:15"
+      ]
+    },
+    {
+      "movie_id": "m9",
+      "cinema_id": "c1",
+      "times": [
+        "14:50",
+        "17:20",
+        "19:50"
+      ]
+    },
+    {
+      "movie_id": "m9",
+      "cinema_id": "c7",
+      "times": [
+        "16:30",
+        "21:40"
+      ]
+    },
+    {
+      "movie_id": "m9",
+      "cinema_id": "c3",
+      "times": [
+        "18:50",
+        "21:20"
+      ]
+    },
+    {
+      "movie_id": "m9",
+      "cinema_id": "c14",
+      "times": [
+        "20:45"
+      ]
+    },
+    {
+      "movie_id": "m9",
+      "cinema_id": "c24",
+      "times": [
+        "18:00"
+      ]
+    },
+    {
+      "movie_id": "m9",
+      "cinema_id": "c12",
+      "times": [
+        "20:50"
+      ]
+    },
+    {
+      "movie_id": "m9",
+      "cinema_id": "c4",
+      "times": [
+        "20:45"
+      ]
+    },
+    {
+      "movie_id": "m9",
+      "cinema_id": "c15",
+      "times": [
+        "21:15"
+      ]
+    },
+    {
+      "movie_id": "m9",
+      "cinema_id": "c8",
+      "times": [
+        "21:30"
+      ]
+    },
+    {
+      "movie_id": "m9",
+      "cinema_id": "c5",
+      "times": [
+        "19:15"
+      ]
+    },
+    {
+      "movie_id": "m9",
+      "cinema_id": "c2",
+      "times": [
+        "21:45"
+      ]
+    },
+    {
+      "movie_id": "m9",
+      "cinema_id": "c6",
+      "times": [
+        "22:00"
+      ]
+    },
+    {
+      "movie_id": "m9",
+      "cinema_id": "c18",
+      "times": [
+        "20:45"
+      ]
+    },
+    {
+      "movie_id": "m9",
+      "cinema_id": "c13",
+      "times": [
+        "21:15"
+      ]
     }
   ]
 }
