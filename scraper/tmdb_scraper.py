@@ -42,5 +42,6 @@ class TMDBScraper:
             "id": movie["id"],
             "title": movie["title"],
             "original_title": movie["original_title"],
-            "year": year_from_date
+            "year": year_from_date,
+            "poster_path": movie.get("poster_path")
         }

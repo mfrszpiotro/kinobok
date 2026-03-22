@@ -47,6 +47,10 @@ class FilmwebScraper:
                         continue
                     cinema_name = name_element.text.strip()
                     
+                    # Extract address
+                    address_element = cinema_section.select_one('.seanceTiles__address')
+                    cinema_address = address_element.text.strip() if address_element else "Warsaw, Poland"
+
                     # Extract lat/lng from data attributes
                     lat = cinema_section.get('data-cinema-latitude')
                     lng = cinema_section.get('data-cinema-longitude')
@@ -55,6 +59,7 @@ class FilmwebScraper:
                     
                     if times:
                         cinemas[cinema_name] = {
+                            "address": cinema_address,
                             "times": times,
                             "coords": {"lat": lat, "lng": lng} if lat and lng else None
                         }
