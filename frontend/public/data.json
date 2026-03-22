@@ -1,0 +1,37 @@
+{
+  "movies": [
+    {
+      "id": "m1",
+      "title": "Project Hail Mary",
+      "poster": "https://image.tmdb.org/t/p/w500/project-hail-mary.jpg",
+      "boxd_uri": "https://boxd.it/pEeQ"
+    }
+  ],
+  "cinemas": [
+    {
+      "id": "c1",
+      "name": "Kino Muranów",
+      "address": "ul. Gen. Andersa 5, 00-147 Warszawa",
+      "coords": {
+        "lat": 52.249,
+        "lng": 20.999
+      }
+    },
+    {
+      "id": "c2",
+      "name": "Kino Kultura",
+      "address": "Krakowskie Przedmieście 21/23, 00-071 Warszawa",
+      "coords": {
+        "lat": 52.243,
+        "lng": 21.015
+      }
+    }
+  ],
+  "showtimes": [
+    {
+      "movie_id": "m1",
+      "cinema_id": "c1",
+      "times": ["18:00", "21:00"]
+    }
+  ]
+}
