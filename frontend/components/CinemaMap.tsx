@@ -14,6 +14,13 @@ const DefaultIcon = L.icon({
   iconAnchor: [12, 41],
 });
 
+const HighlightedIcon = L.icon({
+  iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png',
+  shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+});
+
 L.Marker.prototype.options.icon = DefaultIcon;
 
 interface CinemaMapProps {
@@ -26,9 +33,10 @@ interface CinemaMapProps {
       lng: number;
     };
   }>;
+  highlightedCinemaIds?: string[];
 }
 
-export default function CinemaMap({ cinemas }: CinemaMapProps) {
+export default function CinemaMap({ cinemas, highlightedCinemaIds = [] }: CinemaMapProps) {
   const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
@@ -56,6 +64,7 @@ export default function CinemaMap({ cinemas }: CinemaMapProps) {
           <Marker 
             key={cinema.id} 
             position={[cinema.coords.lat, cinema.coords.lng]}
+            icon={highlightedCinemaIds.includes(cinema.id) ? HighlightedIcon : DefaultIcon}
           >
             <Popup>
               <strong>{cinema.name}</strong><br />
