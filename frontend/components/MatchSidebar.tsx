@@ -3,39 +3,20 @@
 import { useState } from "react";
 import { parseWatchlist } from "../utils/csv_parser";
 
-interface Movie {
-  id: string;
-  title: string;
-  boxd_uri: string;
-}
-
-interface Cinema {
-  id: string;
-  name: string;
-}
-
-interface Showtime {
-  movie_id: string;
-  cinema_id: string;
-  times: string[];
-}
-
-interface Data {
-  movies: Movie[];
-  cinemas: Cinema[];
-  showtimes: Showtime[];
-}
-
 interface MatchSidebarProps {
-  data: Data;
-  onMatchesFound: (matchedCinemaIds: string[]) => void;
+  matches: any[];
+  visibleChains: string[];
+  onWatchlistUpload: (uris: string[]) => void;
+  onToggleChain: (chain: string) => void;
 }
 
 export default function MatchSidebar({
-  data,
-  onMatchesFound,
+  matches,
+  visibleChains,
+  onWatchlistUpload,
+  onToggleChain,
 }: MatchSidebarProps) {
-  const [matches, setMatches] = useState<any[]>([]);
+  const [showAdvanced, setShowAdvanced] = useState(false);
 
   const handleFileUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
@@ -43,33 +24,10 @@ export default function MatchSidebar({
 
     const text = await file.text();
     const watchlistUris = parseWatchlist(text);
-
-    const matchingMovies = data.movies.filter((movie) =>
-      watchlistUris.includes(movie.boxd_uri),
-    );
-    const matchedMovieIds = new Set(matchingMovies.map((m) => m.id));
-
-    const relevantShowtimes = data.showtimes.filter((s) =>
-      matchedMovieIds.has(s.movie_id),
-    );
-    const matchedCinemaIds = Array.from(
-      new Set(relevantShowtimes.map((s) => s.cinema_id)),
-    );
-
-    setMatches(
-      matchingMovies.map((movie) => ({
-        ...movie,
-        showtimes: relevantShowtimes
-          .filter((s) => s.movie_id === movie.id)
-          .map((s) => ({
-            cinema: data.cinemas.find((c) => c.id === s.cinema_id)?.name,
-            times: s.times,
-          })),
-      })),
-    );
-
-    onMatchesFound(matchedCinemaIds);
+    onWatchlistUpload(watchlistUris);
   };
+
+  const chains = ["Multikino", "Cinema City", "Helios"];
 
   return (
     <div
@@ -83,16 +41,68 @@ export default function MatchSidebar({
       }}
     >
       <h2>kinꚘbok Warsaw</h2>
-      <p>
-        Upload your Letterboxd watchlist (CSV) to find matches in Warsaw
-        cinemas.
+      <p style={{ fontSize: "0.9em", color: "#666" }}>
+        Upload your Letterboxd watchlist (CSV) to find matches in Warsaw.
       </p>
 
       <input type="file" accept=".csv" onChange={handleFileUpload} />
 
+      <div style={{ marginTop: "20px" }}>
+        <button
+          onClick={() => setShowAdvanced(!showAdvanced)}
+          style={{
+            background: "none",
+            border: "none",
+            color: "#0070f3",
+            cursor: "pointer",
+            padding: 0,
+            fontSize: "0.9em",
+            textDecoration: "underline",
+          }}
+        >
+          {showAdvanced ? "Hide" : "Show"} Advanced Filters
+        </button>
+
+        {showAdvanced && (
+          <div
+            style={{
+              marginTop: "10px",
+              padding: "10px",
+              background: "#f9f9f9",
+              borderRadius: "4px",
+              fontSize: "0.9em",
+            }}
+          >
+            <strong>Include big chains:</strong>
+            {chains.map((chain) => (
+              <div key={chain} style={{ marginTop: "5px" }}>
+                <label style={{ display: "flex", alignItems: "center" }}>
+                  <input
+                    type="checkbox"
+                    checked={visibleChains.includes(chain)}
+                    onChange={() => onToggleChain(chain)}
+                    style={{ marginRight: "8px" }}
+                  />
+                  {chain === "Cinema City" ? "Cinema City / IMAX" : chain}
+                </label>
+              </div>
+            ))}
+            <p style={{ fontSize: "0.8em", color: "#888", marginTop: "10px" }}>
+              Independent cinemas are always visible.
+            </p>
+          </div>
+        )}
+      </div>
+
+      {!showAdvanced && (
+        <p style={{ fontSize: "0.8em", color: "#888", marginTop: "10px" }}>
+          Showing local independent cinemas {visibleChains.includes("Helios") && "& Helios"}.
+        </p>
+      )}
+
       {matches.length > 0 && (
         <div style={{ marginTop: "20px" }}>
-          <h3>Matches Found</h3>
+          <h3>Matches Found ({matches.length})</h3>
           {matches.map((match) => (
             <div
               key={match.id}
