@@ -21,7 +21,7 @@ Following "Approach 1: Filtered Data Propagation", the central state and filteri
 - `watchlistUris` (string[]): Stores the Letterboxd URIs parsed from the user's uploaded CSV.
 
 ### 3.2. Filtering Logic
-A cinema is considered a "Big Chain" if its name starts with "Multikino" or "Cinema City" (case-insensitive).
+A cinema is considered a "Big Chain" if its name starts with "Multikino", "Cinema City", "Helios", or "IMAX" (case-insensitive).
 - **Filtered Cinemas:** `data.cinemas.filter(c => showBigChains || !isBigChain(c.name))`
 - **Filtered Showtimes:** `data.showtimes.filter(s => filteredCinemas.some(fc => fc.id === s.cinema_id))`
 
@@ -29,8 +29,9 @@ A cinema is considered a "Big Chain" if its name starts with "Multikino" or "Cin
 Matches are recalculated reactively:
 1. Filter movies from `data.movies` that exist in `watchlistUris`.
 2. Map these movies to their showtimes *only within the currently filtered cinemas*.
-3. Pass the resulting `matches` array to `MatchSidebar`.
-4. Pass the `filteredCinemas` and `matchedCinemaIds` to `CinemaMap`.
+3. Filter out any movies from the `matches` array that have zero showtimes in the current filtered set.
+4. Pass the resulting `matches` array to `MatchSidebar`.
+5. Pass the `filteredCinemas` and `matchedCinemaIds` to `CinemaMap`.
 
 ## 4. Component Interfaces
 
